@@ -5,8 +5,6 @@ name: 618动物连萌
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '45 0-23/1 * * *'
   watch:
     types: started
   repository_dispatch:
